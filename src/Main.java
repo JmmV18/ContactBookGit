@@ -75,12 +75,12 @@ public class Main {
         in.close();
     }
 
-//    private static void checkForRepeatedContacts (ContactBook cBook) {
-//    if (cBook.areThereRepeatedContacts())
-//        System.out.println(REPEATED_CONTACTS);
-//    else
-//        System.out.println(ALL_CONTACTS_ARE_DIFFERENT);
-//    }
+    private static void checkForRepeatedContacts (ContactBook cBook) {
+    if (cBook.areThereRepeatedContacts())
+        System.out.println(REPEATED_CONTACTS);
+    else
+        System.out.println(ALL_CONTACTS_ARE_DIFFERENT);
+    }
 
     private static void getContact(Scanner in, ContactBook cBook) {
         int number = in.nextInt();
