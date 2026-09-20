@@ -92,12 +92,12 @@ public class ContactBook {
     }
 
     public String findContact(int number) {
-        for(int i=0;i<counter;i++){
-            if(contacts[i].getPhone()==number){
+        for (int i = 0; i < counter; i++) {
+            if (contacts[i].getPhone() == number) {
                 return contacts[i].getName();
             }
         }
-        return null;
+        return "";
     }
 
     public boolean areThereRepeatedContacts() {
